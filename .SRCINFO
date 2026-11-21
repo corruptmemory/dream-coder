@@ -1,0 +1,24 @@
+pkgbase = dreamcoder-local
+	pkgdesc = AI-powered coding assistant with semantic code search (repack of the official .deb)
+	pkgver = 1.0.15
+	pkgrel = 1
+	url = https://www.dreamcoder.ai/
+	arch = x86_64
+	license = LicenseRef-Proprietary
+	depends = glibc
+	depends = hicolor-icon-theme
+	depends = libgcc
+	depends = libgomp
+	depends = libstdc++
+	depends = zlib
+	optdepends = xdg-utils: open the web UI in the default browser
+	optdepends = git: version control for the projects DreamCoder works on
+	provides = dreamcoder
+	conflicts = dreamcoder
+	conflicts = dreamcoder-bin
+	options = !strip
+	options = !debug
+	source = https://www.dreamcoder.ai/downloads/files/public/1.0.15/linux-deb/debian/dreamcoder-dreamcoder_1.0.15_amd64.deb
+	sha256sums = 5e94aaa8e6bbf3d75d75e688fe208e992c00602a896f2c5608b7060a2acc5efd
+
+pkgname = dreamcoder-local
